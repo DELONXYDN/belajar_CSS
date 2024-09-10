@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: hwb(12 6% 8%);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgba(11, 15, 239, 0.82);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #0f0e12;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #0fec25;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ede2e2;
+  color: rgb(82, 5, 5);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #524d4d;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: hwb(198 3% 55%);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(198, 88%, 47%);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #0b099e;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>DELON_COY WEBSITE</h1>
+  <p>GLERI KOTA SUBANG INDAH DI PANDANG SEJUK DI BADAN</p>
+</div>
+
+<div class="topnav">
+  <a href="d:\Belajarhtml\polder pa jihan\polder_css\CSS_Tutorial\float.html">Css Float</a>
+  <a href="d:\Belajarhtml\polder pa jihan\polder_css\CSS_Tutorial\Flexbox.html">Css Flexbok</a>
+  <a href="d:\Belajarhtml\polder pa jihan\polder_css\CSS_Tutorial\Grid.html">css grid</a>
+  <a href="https://www.youtube.com/">yutube</a>
+  <a href="https://github.com/DELONXYDN/belajar_CSS">github</a>
+  <a href="https://www.w3schools.com/default.asp">w3schools</a>
+  <a href="https://web.telegram.org/a/#-1002160937859_1">telegram </a>
+  <a href="file:///D:/Belajarhtml/polder%20pa%20jihan/MY_WEBSITE_DELON.html" style="float:right">MY WEB</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>gunung canggah cisalak subang</h5>
+      <div class="fakeimg" style="height:200px;"><img src="c:\Users\LENOVO\Pictures\canggah.subang.jfif"height="170" width="400"></div>
+      <p>Some text..</p>
+      <p>Gunung Canggah Terletak Di Kecamatan Cisalak Kabupaten Subang Jawa Barat. Jalur Pendakian Ke Gunung Canggah Yang Sering Dilalui Adalah Jalur Kampung panyeredan Atau Kampung Citali Yang Tempatnya Di daerah Cisalak Subang Jawa Barat.Dan  Dari Dua Kampung Itu Kalian Akan Langsung Di arahkan Ke Curug Cipaok.</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>bukit pamoyanan subang</h5>
+      <div class="fakeimg" style="height:200px;"><img src="c:\Users\LENOVO\Pictures\pamayonan.subang.jfif"height="170" width="400"></div>
+      <p>pamoyanan indah</p>
+      <p>Bukit Pamoyanan memiliki pesona yang sangat cantik. Tak jarang para wisatawan melepaskan penatnya di tempat ini. Melansir dari channel YouTube Lintas iNews, sensasi pengunjung bakal disuguhkan pemandangan hamparan awan indah serta udara sejuk.</p>
+      <!DOCTYPE html>
+      <html>
+      <body>
+      
+      <audio controls>
+        <source src="c:\Users\LENOVO\Music\Dadi Siji.mp3" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      
+      </body>
+      </html>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>seni subang check </h2>
+      <div class="fakeimg" style="height:200px;"><img src="c:\Users\LENOVO\Pictures\subang seni.jfif"height="125"></div>
+      <p>sisingaan subang..</p>
+    </div>
+    <div class="card">
+      <h3>wisata subang check </h3>
+      <div class="fakeimg" style="height:120px;"><p><img src="c:\Users\LENOVO\Pictures\subang dcastelo.jfif"height="100"></p></div>
+      <div class="fakeimg" style="height:125px;"><p></p><img src="c:\Users\LENOVO\Pictures\subang danas.jfif"height="100"></div>
+      <div class="fakeimg" style="height:135px;"><p><img src="c:\Users\LENOVO\Pictures\subang sariater.jfif"height="100"></p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me akun</h3>
+      <p>ig:delon_coy</p>
+      <p>tt:klx150cc</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+  <h2>TERIMAKASIH</h2>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  float: right;
+}
+</style>
+</head>
+<body>
+
+<h2>Float Right</h2>
+
+<p>Sejarah Kota Subang</p>
+
+<p><img src="c:\Users\LENOVO\Pictures\alunalun.jfif" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+  Subang merupakan salah satu daerah kabupaten yang ada di provinsi Jawa Barat. Kabupaten seluas 2.051,76 km persegi ini mengisi 6,34 persen dari total luas Jabar.
+  Kabupaten Subang biasa dijuluki sebagai Kota Nanas karena memiliki banyak komoditas nanas dari para petaninya. </p>
+
+
+</body>
+</html>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(30, 255, 98);
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1>Flexible Boxes</h1>
+<h1>Delon_coy</h1>
+
+<div class="flex-container">
+  <div>delon</div>
+  <div>tegar</div>
+  <div>irpan</div>  
+  <div>eqi</div>
+  <div>diki</div>
+  <div>satrio</div>  
+  <div>diandra</div>
+  <div>tio</div>
+</div>
+
+<p>Try to resize the browser window.</p>
+<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+
+</body>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Container</h1>
+<p>delon_coy</p  >
+
+<p>A Grid Container consists of grid items arranged in columns and rows</p>
+
+<div class="grid-container">
+  <div>Delon_coy</div>
+  <div>ownwres_delon</div>
+  <div>delonxydn</div>  
+  <div>delonklx50</div>
+  <div>delonnoled</div>
+  <div>delondelon</div>
+  <div>del</div>
+  <div>lon</div>
+</div>
+
+<p>Direct child elements(s) of the grid container automatically becomes grid items.</p>
+
+</body>
+</html>
+
+
